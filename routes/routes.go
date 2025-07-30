@@ -20,6 +20,7 @@ func SetupRoutes(app *fiber.App) {
 	// publik
 	api.Post("/login", handlers.LoginHandler)
 	api.Get("/dashboard", handlers.DashboardHandler)
+	api.Post("/register", handlers.RegisterHandler)
 
 	// admin
 	admin := api.Group("/admin", middleware.Protected())
