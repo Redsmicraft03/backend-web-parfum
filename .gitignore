@@ -1,0 +1,16 @@
+.idea
+.vscode
+
+*test*
+bin
+app
+venv
+build
+dist
+out
+resources
+
+.env
+*.txt
+*test*.*
+*.spec
